@@ -6,20 +6,20 @@ Um aplicativo leve, rápido e com interface gráfica nativa para baixar todas as
 
 - **Interface Gráfica Simples (GUI):** Fácil de usar, sem precisar digitar comandos no terminal.
 - **Inteligência de Link:** Basta colar a URL completa da thread e o programa identifica automaticamente o Board e o ID.
-- **Velocidade e Estabilidade:** Utiliza a API oficial (`a.4cdn.org`) que garante downloads rápidos e evita bloqueios (sem necessidade de web scraping lento).
+- **Velocidade e Estabilidade:** Utiliza a API oficial (`a.4cdn.org`) que garante downloads rápidos e evita bloqueios.
 - **Leveza:** O executável final tem menos de 1MB e não requer instalação. Roda nativamente no Windows.
 - **Feedback Visual:** Acompanhe o progresso do download em tempo real pela barra de progresso.
 - **Suporte a Múltiplos Formatos:** Baixa automaticamente arquivos `.png`, `.jpg`, `.jpeg`, `.gif`, `.webm`, `.mp4` e `.mov`.
 
 ## 🚀 Como Usar (Para usuários)
 
-1. Vá até a aba **[Releases](https://github.com/SEU-USUARIO/SEU-REPOSITORIO/releases)** aqui no lado direito da página.
+1. Vá até a aba **[Releases](https://github.com/felpsgaya/4chan-Media-Downloader/releases)** aqui no repositório.
 2. Baixe a versão mais recente do arquivo `4chan_Downloader.exe`.
 3. Coloque o executável em uma pasta da sua escolha (ex: `Downloads/4chan`).
 4. Dê um clique duplo para abrir, cole o link da thread desejada e clique em "Baixar Arquivos".
 5. Uma pasta será criada automaticamente com as mídias baixadas!
 
-*(Nota: O Windows Defender pode mostrar um aviso na primeira vez por ser um .exe novo. Basta clicar em "Mais informações" e "Executar assim mesmo".)*
+*(Nota: O Windows Defender pode mostrar um aviso na primeira vez por ser um executável recém-criado. Basta clicar em "Mais informações" e "Executar assim mesmo".)*
 
 ## 💻 Para Desenvolvedores (Código Fonte)
 
@@ -31,9 +31,8 @@ Se você quiser rodar o script diretamente ou modificar o código:
 
 ### 🛠️ Como compilar o seu próprio `.exe`
 
-Este projeto utiliza o módulo `ps2exe` para converter o script PowerShell em um executável com interface gráfica (escondendo a tela preta do console).
+Este projeto utiliza o módulo `ps2exe` para converter o script PowerShell em um executável com interface gráfica (escondendo a tela preta do console). No PowerShell, execute:
 
-No PowerShell, execute:
 ```powershell
 # 1. Instale o módulo (caso não tenha)
 Install-Module -Name ps2exe -Scope CurrentUser
